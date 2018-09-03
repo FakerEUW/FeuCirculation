@@ -1,0 +1,224 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(110, 110, 110);
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+body {
+    display: flex;
+}
+
+.feu1 {
+    padding: 0;
+    width: 20%;
+    height: 95%;
+    margin-left: 20%;
+    background-color: rgb(49, 49, 49);
+}
+
+.feu2 {
+    padding: 0;
+    width: 20%;
+    height: 95%;
+    margin-left: 20%;
+    background-color: rgb(49, 49, 49);
+    float: right;
+}
+
+li {
+    width: 60%;
+    height: 20%;
+    margin-left: 20%;
+    list-style: none;
+    border-radius: 50%;
+}
+
+#vert1 {
+    margin-top: 25%;
+    background-color: rgba(50, 205, 50, 0.1);
+    animation-name: changevert;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+#vert2 {
+    margin-top: 25%;
+    background-color: rgba(50, 205, 50, 0.1);
+    animation-name: changevert;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+@keyframes changevert { 
+    0% {background-color: rgba(50, 205, 50, 0.1); }
+    5% {background-color: rgba(50, 205, 50, 0.1); }
+    10% {background-color: limegreen; }
+    15% {background-color: limegreen; }
+    20% {background-color: limegreen; }
+    25% {background-color: limegreen; }
+    30% {background-color: rgba(50, 205, 50, 0.1); }
+    35% {background-color: rgba(50, 205, 50, 0.1); }
+    40% {background-color: rgba(50, 205, 50, 0.1); }
+    45% {background-color: rgba(50, 205, 50, 0.1); }
+    50% {background-color: rgba(50, 205, 50, 0.1); }   
+    55% {background-color: rgba(50, 205, 50, 0.1); }
+    60% {background-color: rgba(50, 205, 50, 0.1); }
+    65% {background-color: rgba(50, 205, 50, 0.1); }
+    70% {background-color: rgba(50, 205, 50, 0.1); }
+    75% {background-color: rgba(50, 205, 50, 0.1); }
+    80% {background-color: rgba(50, 205, 50, 0.1); }
+    85% {background-color: rgba(50, 205, 50, 0.1); }
+    90% {background-color: rgba(50, 205, 50, 0.1); }
+    95% {background-color: rgba(50, 205, 50, 0.1); }
+    100% {background-color: rgba(50, 205, 50, 0.1); }   
+}
+
+
+
+#orange1 {
+    margin-top: 25%;
+    background-color: rgba(255, 165, 0, 0.1);
+    animation-name: changeorange;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+#orange2 {
+    margin-top: 25%;
+    background-color: rgba(255, 165, 0, 0.1);
+    animation-name: changeorange;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+@keyframes changeorange { 
+    0% {background-color: rgba(255, 165, 0, 0.1); }
+    5% {background-color: rgba(255, 165, 0, 0.1); }
+    10% {background-color: rgba(255, 165, 0, 0.1); }
+    15% {background-color: rgba(255, 165, 0, 0.1); }
+    20% {background-color: rgba(255, 165, 0, 0.1); }
+    25% {background-color: rgba(255, 165, 0, 0.1); }
+    30% {background-color: orange; }
+    35% {background-color: orange; }
+    40% {background-color: orange; }
+    45% {background-color: orange; }
+    50% {background-color: rgba(255, 165, 0, 0.1); }   
+    55% {background-color: rgba(255, 165, 0, 0.1); }
+    60% {background-color: rgba(255, 165, 0, 0.1); }
+    65% {background-color: rgba(255, 165, 0, 0.1); }
+    70% {background-color: rgba(255, 165, 0, 0.1); }
+    75% {background-color: rgba(255, 165, 0, 0.1); }
+    80% {background-color: rgba(255, 165, 0, 0.1); }
+    85% {background-color: rgba(255, 165, 0, 0.1); }
+    90% {background-color: rgba(255, 165, 0, 0.1); }
+    95% {background-color: rgba(255, 165, 0, 0.1); }
+    100% {background-color: rgba(255, 165, 0, 0.1); }   
+}
+
+
+
+#rouge1 {
+    margin-top: 25%;
+    background-color: rgba(255, 0, 0, 0.1);
+    animation-name: changerouge;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+#rouge2 {
+    margin-top: 25%;
+    background-color: rgba(255, 0, 0, 0.1);
+    animation-name: changerouge;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+@keyframes changerouge { 
+    0% {background-color: rgba(255, 0, 0, 0.1); }
+    5% {background-color: rgba(255, 0, 0, 0.1); }
+    10% {background-color: rgba(255, 0, 0, 0.1); }
+    15% {background-color: rgba(255, 0, 0, 0.1); }
+    20% {background-color: rgba(255, 0, 0, 0.1); }
+    25% {background-color: rgba(255, 0, 0, 0.1); }
+    30% {background-color: rgba(255, 0, 0, 0.1); }
+    35% {background-color: rgba(255, 0, 0, 0.1); }
+    40% {background-color: rgba(255, 0, 0, 0.1); }
+    45% {background-color: rgba(255, 0, 0, 0.1); }
+    50% {background-color: red; }   
+    55% {background-color: red; }
+    60% {background-color: red; }
+    65% {background-color: red; }
+    70% {background-color: red; }
+    75% {background-color: red; }
+    80% {background-color: red; }
+    85% {background-color: red; }
+    90% {background-color: red; }
+    95% {background-color: red; }
+    100% {background-color: red; }   
+}
+
+
+#vert1:hover {
+    background-color: limegreen;
+}
+#vert2:hover {
+    background-color: limegreen;
+}
+
+#orange1:hover {
+    background-color: orange;
+}
+#orange2:hover {
+    background-color: orange;
+}
+
+#rouge1:hover {
+    background-color: red;
+}
+#rouge2:hover {
+    background-color: red;
+}
+
+/* TEST BOUCLE CHANGER COULEUR FEU 
+.slidein {
+    position: absolute;
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+    
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+}
+
+      ezfdezafzaef class pr couleur azefazefazefazef
+.etap1rouge {
+    width: 60%!important;
+    height: 20%!important;
+    margin-left: 20%!important;
+    list-style: none!important;
+    border-radius: 50%!important;
+    background-color: red!important;
+    margin-top: 25%!important;
+}
+.etape1vert {
+    width: 60%!important;
+    height: 20%!important;
+    margin-left: 20%!important;
+    list-style: none!important;
+    border-radius: 50%!important;
+    margin-top: 25%!important;
+    background-color: rgba(50, 205, 50, 0.1)!important;   
+}
+
+*/
